@@ -1,3 +1,3 @@
-Download LightCNN-29 v2 trained model from https://github.com/AlfredXiangWu/LightCNN.
+Download LightCNN-29 v2 trained model from https://github.com/yh-iro/Keras_TP-GAN
 Place file in this directory.
 File name: extract29v2_lr0.00010_loss0.997_valacc1.000_epoch1110.hdf5
