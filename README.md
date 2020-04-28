@@ -11,13 +11,13 @@ Large-pose facial images present a challenge for facial recognition models, espe
 ### Instructions
 For each GAN implementation directory (pix2pix, pix2pix_ip_loss, tp_gan):
 - Unzip the [data set](https://drive.google.com/file/d/1CibviCTCiQvDah_afgPgpWIDiEv8u_zC/view?usp=sharing) into the `data` directory.
-- For pix2pix_ip_loss and tp_gan, download the [LightCNN-29 v2 trained model](https://github.com/AlfredXiangWu/LightCNN) and unpack it into the `light-cnn` directory.
+- For pix2pix_ip_loss and tp_gan, download the [LightCNN-29 v2 trained model weights](https://drive.google.com/drive/folders/1hBAEbDTpzEXbdFCWXueq-5MWGCSb7sMK) and unpack it into the `light-cnn` directory. These are provided by the [TP-GAN Keras implementation](https://github.com/yh-iro/Keras_TP-GAN).
 - Run the code in the Jupyter notebook. Requires TensorFlow 2.0 with GPU support. Training takes several hours, even with GPU. TP-GAN requires training for many more epochs than the other two models.
 
 Code adapted from:
 - [Pix2Pix Tensor flow docs](https://github.com/tensorflow/docs/blob/master/site/en/tutorials/generative/pix2pix.ipynb)
-- [LightCNN](https://github.com/AlfredXiangWu/LightCNN)
 - [TP-GAN official implementation](https://github.com/HRLTY/TP-GAN)
 - [TP-GAN Keras implementation](https://github.com/yh-iro/Keras_TP-GAN)
+- [LightCNN Keras implementation](https://github.com/yh-iro/Keras_LightCNN)
 
 Data adapted from [NIST Mugshot Identification Database](https://www.nist.gov/srd/nist-special-database-18)
